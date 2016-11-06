@@ -18,11 +18,15 @@ public:
   Tester();
   void run();
 
-private:
   bool createObj();
+  bool checkEmpty();
+  bool checkAdds();
+  bool checkRemoves();
   bool checkSize();
-  bool deleteObj();
+  bool checkSearch();
 
+private:
+  void printVector(std::vector<int> v);
 };
 
 #endif /* TESTER_H */

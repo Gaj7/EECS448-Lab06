@@ -1,0 +1,2 @@
+1. The addBack method is adding new values to the front of the array - mimicking the functionality of the addFront method.
+2. Neither the removeFront nor removeBack methods remove any part of the list.
